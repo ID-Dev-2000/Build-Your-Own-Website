@@ -1,0 +1,13 @@
+* :not(title){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inputBodyText, #userBodyText {
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+    border: solid 1px black;
+}
