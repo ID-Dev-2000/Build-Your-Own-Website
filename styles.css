@@ -5,9 +5,9 @@
     flex-direction: column;
 }
 
-#inputBodyText, #userBodyText {
+#inputBodyText{
     height: 100px;
-    width: 500px;
+    width: 105%;
     margin: 10px;
     border: solid 1px black;
 }

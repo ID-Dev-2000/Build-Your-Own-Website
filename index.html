@@ -10,13 +10,27 @@
 <body>
     <div id="inputDiv">
         <h1>Create Your Own Website!</h1>
-        <input type="text" id="inputWebsiteName" placeholder="Enter Website Name">
-        <input type="text" id="inputBodyText" placeholder="Enter Website Text" width="500px" height="500px">
+        <textarea id="inputBodyText" placeholder="Enter Website Text" width="300px" height="300px"></textarea>
         <button id="submitDataButton">Submit</button>
+    </div>
+    <div id="htmlInstructions">
+        <hr style="width: 100%;">
+        <h3>HTML Instructions: </h3>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">View HTML Documentation</a>
+        <div style="margin: 10px;">
+        &lt;p&gt;This is a paragraph tag. Use to display standard text.&lt;/p&gt;
+        <br><br>
+        &lt;h1&gt;This is a header tag. Use to display large bold text.&lt;/h1&gt;
+        <br><br>
+        &lt;h6&gt;This is a header tag. Use to display smaller bold text. Size arrays from 1-6.&lt;/h6&gt;
+        <br><br>
+        &lt;a href="*ENTER LINK HERE*" target="_blank"&gt;This is a link tag. Use to display a link as text.&lt;/a&gt;
+        </div>
     </div>
     <div id="userContentDiv">
         <h1 id="userWebsiteName"></h1>
         <p id="userBodyText"></p>
+        <hr style="width: 100%;">
         <button id="resetPageButton">RESET</button>
     </div>
     <script src="script.js"></script>
