@@ -23,6 +23,7 @@ function updatePageWithUserData() {
 
 function resetPageToDefault() {
     inputDiv.style.display = ""
+    inputBodyText.value = ""
     htmlInstructions.style.display = ""
     userContentDiv.style.display = "none"
 }
