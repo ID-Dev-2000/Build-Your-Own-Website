@@ -13,7 +13,7 @@ let resetPageButton = document.getElementById('resetPageButton')
 submitDataButton.addEventListener("click", displayNewPage)
 resetPageButton.addEventListener("click", resetPageToDefault)
 
-// Hides the div element that will display user data
+// Hides the div element that will display user data (SPA functionality)
 userContentDiv.style.display = "none"
 
 // All functions below
